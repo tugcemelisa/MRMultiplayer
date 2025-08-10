@@ -114,3 +114,34 @@ Thumbs.db
 **/OculusAvatar2/**/SampleAssets/**
 **/OculusAvatar2/**/Unzipped/**
 **/OculusAvatar2/**/PresetAvatars_*.zip
+
+# Unity text files with consistent LF endings
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.compute text eol=lf
+*.glsl text eol=lf
+*.hlsl text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+*.asmdef text eol=lf
+*.meta text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+
+# Binary files - no modifications
+*.dll binary
+*.exe binary
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.psd binary
+*.unitypackage binary
+*.zip binary
+
+# Ignore line ending changes in binary files
